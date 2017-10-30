@@ -39,7 +39,6 @@ def get_initial_state_data():
     pickle.dump(main_df,save_file)
     save_file.close()
 
-#
 
 HPI_data=pd.read_pickle('fifty_states_pct_change.pickle')
 HPI_data.plot(legend=None)
