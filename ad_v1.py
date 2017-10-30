@@ -6,7 +6,7 @@ Created on Mon Sep 11 05:20:47 2017
 """
 
 
-
+""" importing libraries"""
 import pandas as pd
 import quandl as ql
 
