@@ -14,7 +14,7 @@ import pickle
 api_key = open('api_key.txt','r').read()
 def fifty_states():
     fifty_states = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states')
-    return fifty_states[0][0][1:]
+    return fifty_states[0][1][1:]
 
 
 
